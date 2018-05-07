@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myFirstApp">
+<head>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> My first AngularJS App</title>
+</head>
+<body>    <h1 style="color: rgb(40, 95, 92)">Coursera course: John Hopkins</h1>
+    <div ng-controller="firstController">
+        <p style="color:mediumpurple">So your name is {{name}}</p>
+        <p style="color:mediumpurple">{{sayHello()}}</p>
+    </div>
+</body>
+</html>
+
+<!-- browser-sync start --server --directory --files "**/*" -->
